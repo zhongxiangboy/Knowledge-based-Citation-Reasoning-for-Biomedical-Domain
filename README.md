@@ -15,11 +15,11 @@ For a pair of citing-cited papers, we would like to explain the citation relatio
 ## **Model and Code**
 We adopted a strategy called split-encoder to learn the semantic information of the cited paper and citing paper separately and individually, model code: https://github.com/darsh10/split_encoder_pointer_summarizer. Meanwhile, we employed several language models as a baseline, including two regular pre-trained language models, BERT and BART, and two large language models, ChatGLM and Llama3, and InfLLM model which is optimised for the problem of too long inputs. Speciafily:
 
-BERT, BIO-BERT, BART and BIO-BART model can be found in : https://huggingface.co/
-
-ChatGLM3-6B model can be found in : https://github.com/THUDM/ChatGLM3
-
-Llama3-8B model can be found in : https://github.com/meta-llama/llama3
+  BERT, BIO-BERT, BART and BIO-BART model can be found in : https://huggingface.co/
+  
+  ChatGLM3-6B model can be found in : https://github.com/THUDM/ChatGLM3
+  
+  Llama3-8B model can be found in : https://github.com/meta-llama/llama3
 
 InfLLM model can be found in : https://github.com/thunlp/InfLLM
   
