@@ -4,7 +4,7 @@ This work aims to explain or help understand the citation relationship between t
 For example, if article A studies a disease X, and article B explores a drug Y, and while drug Y has a therapeutic effect on disease X, then we would like to extract a triple like (drug X, therapy, disease Y) and construct a knowledge graph, which in turn helps to explain the citation associations between article A and article B
 
 
-**Data used**
+## **Data used**
 
 For a pair of citing-cited papers, we would like to explain the citation relationship between them with one or more triple. To obtain annotated data satisfying the above style:
   1. We first acquired the PMC dataset (https://www.ncbi.nlm.nih.gov/pmc/tools/textmining/) containing 2.4 million publications and limited the domain to cancer, obtaining 53043 cancer-related papers.
