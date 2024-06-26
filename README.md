@@ -5,6 +5,7 @@ For example, if article A studies a disease X, and article B explores a drug Y, 
 
 
 Data used
+
 For a pair of citing-cited papers, we would like to explain the citation relationship between them with one or more triple. To obtain annotated data satisfying the above style:
   1. We first acquired the PMC dataset (https://www.ncbi.nlm.nih.gov/pmc/tools/textmining/) containing 2.4 million publications and limited the domain to cancer, obtaining 53043 cancer-related papers.
   2. Subsequently, applying the conditions that the abstract cannot be empty and at least one reference can be found in PMC, we obtained 11,620 citing-cited paper pairs.
